@@ -67,7 +67,7 @@ bool LightProximityAndGesture::begin(void)
   {
     return false;
   }
-  if( (deviceId != APDS9960_ID_1) && (deviceId != APDS9960_ID_2))
+  if( (deviceId != APDS9960_ID_1) && (deviceId != APDS9960_ID_2) && (deviceId != APDS9960_ID_3) )
   {
     return false;
   }
